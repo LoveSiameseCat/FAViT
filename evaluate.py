@@ -1247,7 +1247,7 @@ if __name__ == '__main__':
 
     model = vit_base_patch16_224_in21k(pretrained=True,num_classes=2)
 
-    path = 'FFA_ViT_base.tar'
+    path = 'FFA_ViT_base.tar' # Please download the pre-trained model from the provided website link
 
     checkpoint = torch.load(path,map_location='cpu')
     model.load_state_dict(checkpoint['model_state_dict'])

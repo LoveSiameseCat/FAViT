@@ -174,9 +174,9 @@ default_cfgs = {
     ),
 }
 
-class SDFL(nn.Module):
+class FAL(nn.Module):
     def __init__(self, scale=24, margin=0.25):
-        super(SDFL, self).__init__()
+        super(FAL, self).__init__()
         self.scale = scale
         self.margin = margin
 
@@ -562,7 +562,7 @@ class VisionTransformer(nn.Module):
             for _ in range(len(inject_layer))])
         self.layer = inject_layer
 
-        self.creterion = SDFL()
+        self.creterion = FAL()
 
     def freeze_vit_branch(self):
 
@@ -649,8 +649,8 @@ class VisionTransformer(nn.Module):
             B, L = x.shape
             fake_feat, real_feat = torch.split(x,B//2,dim=0)
             real_prototype = self.head.weight[:1].expand(B//2,-1)
-            sdfl_loss = self.creterion(real_prototype,real_feat,fake_feat)
-            return out, sdfl_loss
+            fal_loss = self.creterion(real_prototype,real_feat,fake_feat)
+            return out, fal_loss
         return  out
 
 

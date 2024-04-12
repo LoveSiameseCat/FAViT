@@ -2,7 +2,7 @@
 
 
 ------
-This repository contains the official PyTorch implementation for "Fine-grained Forgery-aware Adaptive Vision Transformer for Face Forgery Detection", which is submitted to ACM Multimedia 2024.
+This repository contains the official PyTorch implementation for "Forgery-aware Adaptive Vision Transformer for Face Forgery Detection", which is submitted to ACM Multimedia 2024.
 
 ------
 

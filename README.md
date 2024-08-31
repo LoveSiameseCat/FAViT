@@ -2,7 +2,7 @@
 
 
 ------
-This repository contains the official PyTorch implementation for "Forgery-Aware Adaptive Vision Transformer for Generalized Face Forgery Detection".
+This repository contains the official PyTorch implementation for "Generalized Face Forgery Detection via Adaptive Learning for Pre-trained Vision Transformer". arxiv：https://arxiv.org/abs/2309.11092.
 
 ------
 

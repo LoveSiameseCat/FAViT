@@ -16,6 +16,10 @@ The trained model (on FF++ C23) can be accessed from here https://drive.google.c
 ## Useage
 We provide a demo in evaluate.py, which makes it very easy to evaluate the trained model on your customized dataset.
 
+## Citation
+If you find our work helpful in your research, please cite it as:
+
+```
 @ARTICLE{10813581,
   author={Luo, Anwei and Cai, Rizhao and Kong, Chenqi and Ju, Yakun and Kang, Xiangui and Huang, Jiwu and Life, Alex C. Kot},
   journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
@@ -26,3 +30,6 @@ We provide a demo in evaluate.py, which makes it very easy to evaluate the train
   pages={1-1},
   keywords={Forgery;Faces;Adaptation models;Transformers;Feature extraction;Adaptive learning;Computer vision;Face recognition;Deepfakes;Visualization;Face forgery detection;Vision transformer;Adaptive learning;Generalization performance},
   doi={10.1109/TCSVT.2024.3522091}}
+```
+
+

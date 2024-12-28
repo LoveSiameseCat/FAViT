@@ -2,7 +2,7 @@
 
 
 ------
-This repository contains the official PyTorch implementation for "Generalized Face Forgery Detection via Adaptive Learning for Pre-trained Vision Transformer". arxiv：https://arxiv.org/abs/2309.11092.
+This repository contains the official PyTorch implementation for "Generalized Face Forgery Detection via Adaptive Learning for Pre-trained Vision Transformer" (Accepted by IEEE TCSVT)
 
 ------
 
@@ -15,3 +15,14 @@ The trained model (on FF++ C23) can be accessed from here https://drive.google.c
 
 ## Useage
 We provide a demo in evaluate.py, which makes it very easy to evaluate the trained model on your customized dataset.
+
+@ARTICLE{10813581,
+  author={Luo, Anwei and Cai, Rizhao and Kong, Chenqi and Ju, Yakun and Kang, Xiangui and Huang, Jiwu and Life, Alex C. Kot},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Forgery-aware Adaptive Learning with Vision Transformer for Generalized Face Forgery Detection}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Forgery;Faces;Adaptation models;Transformers;Feature extraction;Adaptive learning;Computer vision;Face recognition;Deepfakes;Visualization;Face forgery detection;Vision transformer;Adaptive learning;Generalization performance},
+  doi={10.1109/TCSVT.2024.3522091}}
